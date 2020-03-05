@@ -10,7 +10,7 @@ RUN set -xe \
     && mkdir -p /mnt/target \
     && cd /build/src/github.com/dshearer/jobber \
     && git clone https://github.com/AndiDittrich/jobber.git . \
-    && git checkout v1.4.0
+    && git checkout v1.4.0-p261
 
 WORKDIR /build/src/github.com/dshearer/jobber
 
